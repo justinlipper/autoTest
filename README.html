@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html style="background-color: #FCF6F5FF; font-family: Gotham A">
+<head>
+	<title>README.txt</title>
+
+	<style type="text/css">
+		#header {
+			font-weight: bold; 
+			text-align: center; 
+			border-bottom: 2px solid #DAA03DFF; 
+			color: #bcf5cc; 
+			font-family: sans-serif; 
+			padding-bottom: 3%; 
+			margin-top: 0%
+		}
+		#body-box {
+			background-color: #2BAE66FF;
+			margin: 5% 10% 5% 10%; 
+			border: 3px solid #DAA03DFF; 
+			padding: 3%;
+		}
+		#main-text-div {
+			color: #bcf5cc;
+			font-family: sans-serif; 
+			font-size: 150%
+		}
+		#bottom-border {
+			border-bottom: 2px solid #DAA03DFF; 
+			padding-bottom: 3%
+		}
+		#sub-header {
+			font-size: 100%
+		}
+		#command1 {
+			font-style: italic; 
+			background-color: #1b6b3f; 
+			padding: 1%; 
+			padding-left: 2%; 
+			width: 75%; 
+			font-family: Courier
+		}
+		#sub-sub-header {
+			margin-top: 3%; 
+			font-weight: bold;
+		}
+		#column {
+			-webkit-column-count: 2;
+			margin-top: 2%;
+		}
+	</style>
+
+</head>
+<body id="body-box">
+	
+	<h1 id="header">Auto Test</h1>
+	<div id="main-text-div">
+		<p>Author: Justin Lee Lipper</p>
+		<p id="bottom-border">Location: TBD</p>
+
+		<h2 id="sub-header">Project Description:</h2>
+		<p id="bottom-border">This program takes into account your operating system (limited to Windows and Linux as of 24092020) and runs your python assignment with test cases.</p>
+
+		<h2 id="sub-header">Versioning:</h2>
+		<p>Using: Python 3.8.2</p>
+		<p id="bottom-border"></p>
+
+
+		<h3 id="sub-header">Requirements:</h3>
+		<p>This program assumes that your assignment is labeled using the following convention "assignmentX-X.py". For example, "assignement3-1.py", "assignment1-1.py"...etc.</p>
+
+		<p>This program assumes that the test_X-X-X.in files are all in the same directory as your assignment file.</p>
+
+		<p id="bottom-border">This program will only work with Windows and Linux</p>
+
+
+
+
+
+
+
+
+
+		<p id="sub-sub-header">Execution:</p>
+	
+		<p>There are four different options for this script:</p>
+		<ol type="1">
+			<li>"-c" Takes no arguments, and assumes that the directory to your assignment and test files, is the current directory.
+					<p id="command1" style="font-size: 65%">$ python3 autoTest.py -c</p>
+			</li>
+
+
+			<li style="margin-top: 3%">"-s" Takes one argument that is the directory to your assignment and test files.
+				<p id="command1" style="font-size: 65%">$ python3 autoTest.py -s /mnt/c/Users/$USER/...etc </p>
+			</li>
+
+			<li style="margin-top: 3%">"-o" Works like -c but will also output the test_X-X-X.in files after each result.
+				<p id="command1" style="font-size: 65%;">$ python3 autoTest.py -o</p>
+			</li>
+
+			<li style="margin-top: 3%">Running the script with no flags will get you a default prompt that asks you for a directory string.
+				<p id="command1" style="font-size: 65%;">$ python3 autoTest.py</p>
+			</li>
+
+			<li style="margin-top: 3%">If you need a reminder or any additional help, then run the following: 
+				<p id="command1">$ python autoTest.py -h</p>
+			</li>
+		</ol>
+		<!-- <p id="bottom-border"></p> -->
+	</div>
+
+</body>
+</html>
